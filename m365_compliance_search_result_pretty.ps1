@@ -2,7 +2,7 @@ Param(
 	[string] $CompSearchIdentity
 )
 
-if ($CompSeachIdentity) {
+if ($CompSearchIdentity) {
 	$complianceSearch = Get-ComplianceSearch -Identity $CompSearchIdentity
 
 	if ($complianceSearch) {
